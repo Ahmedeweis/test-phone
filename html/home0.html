@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <link rel="stylesheet" href="../css/we.css">
+</head>
+
+<body>
+    <!-- 0 finish nav -->
+    <section class="page-links" id="home">
+        <div class="container">
+            <nav class="navbar">
+                <div class="iconsy">
+                    <!-- 
+                    <a href="" class="special special-act " style="font-size: 16px;">Log-In</a>
+                    <a href="" class="special " style="font-size: 16px;">Register</a>
+                     -->
+                </div>
+                <ul class="nav-list" id="navi-list">
+                    <li class="list-item"><a href="#land">Tatweer</a></li>
+                    <li class="list-item"><a href="#land">Home</a></li>
+                    <li class="list-item"><a href="#services">Services</a></li>
+                    <li class="list-item"><a href="#features">Features</a></li>
+                    <li class="list-item"><a href="#about-us">About Us</a></li>
+                    <li class="list-item"><a href="#contact-us">Contact Us</a></li>
+                </ul>
+                <div class="menu" id="toggle-button">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </nav>
+            <script>
+                const toggleButton = document.getElementById('toggle-button');
+                const naviList = document.getElementById('navi-list');
+
+                toggleButton.addEventListener('click', () => {
+                    naviList.classList.toggle('active');
+                })
+            </script>
+        </div>
+    </section>
+    <!-- 1 finish nav -->
+    <section style="padding-top: 10px;">
+        <div class="container">
+            <h1 style="text-align: center;">Welcome To Our WebSite</h1>
+            <h3 style="text-align: center;">Choose a section from below to start</h3>
+        </div>
+    </section>
+    <!-- Start Portfolio -->
+    <div class="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2 style="font-weight: bold; font-size: 40px;">Sections</h2>
+                <!-- <p>Welcome to Tatweer Please Choose The Section Below  </p> -->
+            </div>
+            <ul class="shuffle">
+            </ul>
+        </div>
+        <div class="imgs-container">
+            <a href="google" class="box">
+                <h1>Tendes</h1>
+                <img src="../imgs/features-02.jpg" alt="" />
+                <div class="caption">
+                    <h4>Tenders</h4>
+                    <p>Join hundreds of users ..Consultants, General Contractors , subcontractors and Suppliers</p>
+                </div>
+            </a>
+            <!--  
+            <a href="google" class="box">
+                <h1>Teaching</h1>
+                <img src="../imgs/features-03.jpg" alt="" />
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </a>
+            -->
+            <!-- 
+            <div class="box">
+                <img src="images/shuffle-03.jpg" alt="" />
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-04.jpg" alt="" />
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-05.jpg" alt="" />
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-06.jpg" alt="" />
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-07.jpg" alt="" />
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-08.jpg" alt="" />
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+             -->
+        </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <!-- End Portfolio -->
